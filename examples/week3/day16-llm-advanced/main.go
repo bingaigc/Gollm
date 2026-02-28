@@ -423,7 +423,7 @@ func main() {
 	fmt.Println("============================================================")
 	fmt.Println("📋 1. 函数调用（Function Calling）")
 	fmt.Println("============================================================")
-	fmt.Println("💡 LLM 决定调用哪个工具，客户端执行后回传结果\n")
+	fmt.Println("💡 LLM 决定调用哪个工具，客户端执行后回传结果")
 	tools := setupTools()
 	for _, s := range tools.Schemas {
 		fmt.Printf("  工具: %s — %s\n", s.Name, s.Description)
@@ -450,7 +450,7 @@ func main() {
 	fmt.Println("\n============================================================")
 	fmt.Println("📋 2. 对话记忆管理（滑动窗口 + Token 估算）")
 	fmt.Println("============================================================")
-	fmt.Println("💡 自动裁剪旧消息，保持上下文在窗口内\n")
+	fmt.Println("💡 自动裁剪旧消息，保持上下文在窗口内")
 	mem := NewConversationMemory("你是 Go 导师。", 80)
 	for _, m := range []Message{
 		{Role: "user", Content: "什么是 goroutine？"}, {Role: "assistant", Content: "goroutine 是 Go 的轻量级线程。"},
@@ -471,7 +471,7 @@ func main() {
 	fmt.Println("\n============================================================")
 	fmt.Println("📋 3. Prompt 模板引擎")
 	fmt.Println("============================================================")
-	fmt.Println("💡 用 text/template 构建参数化、可复用的提示词\n")
+	fmt.Println("💡 用 text/template 构建参数化、可复用的提示词")
 	lib := NewPromptLibrary()
 	p, _ := lib.Render("translate", map[string]interface{}{
 		"SourceLang": "中文", "TargetLang": "英文", "Text": "Go 是一门优秀的编程语言。",
@@ -490,7 +490,7 @@ func main() {
 	fmt.Println("\n============================================================")
 	fmt.Println("📋 4. 多模型路由")
 	fmt.Println("============================================================")
-	fmt.Println("💡 简单任务用便宜模型，复杂任务用强大模型\n")
+	fmt.Println("💡 简单任务用便宜模型，复杂任务用强大模型")
 	router := NewModelRouter()
 	for _, tc := range []struct{ d string; m []Message }{
 		{"简单问答", []Message{{Role: "user", Content: "你好"}}},
@@ -511,7 +511,7 @@ func main() {
 	fmt.Println("\n============================================================")
 	fmt.Println("📋 5. 速率限制（Token Bucket）")
 	fmt.Println("============================================================")
-	fmt.Println("💡 令牌桶算法：满桶允许突发，空桶需等待\n")
+	fmt.Println("💡 令牌桶算法：满桶允许突发，空桶需等待")
 	lim := NewRateLimiter(3, 2)
 	for i := 1; i <= 5; i++ {
 		av, mx := lim.Status()
@@ -531,7 +531,7 @@ func main() {
 	fmt.Println("\n============================================================")
 	fmt.Println("📋 6. 成本追踪")
 	fmt.Println("============================================================")
-	fmt.Println("💡 按模型和 token 用量精确计费\n")
+	fmt.Println("💡 按模型和 token 用量精确计费")
 	ct := NewCostTracker()
 	for i, c := range [][3]interface{}{{"gpt-3.5-turbo", 500, 200}, {"gpt-3.5-turbo", 800, 350},
 		{"gpt-4o", 1200, 500}, {"gpt-4o-mini", 600, 250}, {"gpt-4o", 2000, 800}} {
