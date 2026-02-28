@@ -8,6 +8,10 @@
 *.so
 *.dylib
 
+# Go compiled binaries (Linux/macOS have no extension)
+/day*
+/examples/week*/day*/day*
+
 # Test binary, built with `go test -c`
 *.test
 
