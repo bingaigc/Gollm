@@ -61,17 +61,24 @@ Gollm/
     │
     ├── 📂 week2/                      # 第二周：云原生微服务
     │   ├── 📂 day08-protobuf/         # Day08 - Protobuf 序列化
+    │   ├── 📂 day09-protobuf-advanced/# Day09 - Protobuf 进阶
     │   ├── 📂 day10-grpc-server/      # Day10 - gRPC 服务端
+    │   ├── 📂 day11-grpc-client/      # Day11 - gRPC 客户端
     │   ├── 📂 day12-interceptors/     # Day12 - 拦截器与中间件
+    │   ├── 📂 day13-middleware/        # Day13 - 高级中间件模式
     │   └── 📂 day14-pprof/            # Day14 - pprof 性能分析
     │
     ├── 📂 week3/                      # 第三周：AI 基建与 Agent
     │   ├── 📂 day15-llm-client/       # Day15 - LLM 客户端
+    │   ├── 📂 day16-llm-advanced/     # Day16 - LLM 高级调用
     │   ├── 📂 day17-sse/              # Day17 - SSE 流式传输
+    │   ├── 📂 day18-sse-advanced/     # Day18 - SSE 进阶模式
     │   ├── 📂 day19-mcp-server/       # Day19 - MCP Server 开发
+    │   ├── 📂 day20-mcp-advanced/     # Day20 - MCP 协议进阶
     │   └── 📂 day21-ai-agent/         # Day21 - AI Agent 构建
     │
     ├── 📂 week4/                      # 第四周：K8s 生态编程
+    │   ├── 📂 day22-k8s-basics/       # Day22 - K8s 基础概念
     │   ├── 📂 day24-k8s-deploy/       # Day24 - K8s 部署
     │   ├── 📂 day26-client-go/        # Day26 - client-go 编程
     │   └── 📂 day28-observability/    # Day28 - 可观测性
