@@ -79,12 +79,16 @@ Gollm/
     │
     ├── 📂 week4/                      # 第四周：K8s 生态编程
     │   ├── 📂 day22-k8s-basics/       # Day22 - K8s 基础概念
+    │   ├── 📂 day23-containerization/ # Day23 - 容器化实践
     │   ├── 📂 day24-k8s-deploy/       # Day24 - K8s 部署
+    │   ├── 📂 day25-client-go-basics/ # Day25 - client-go 入门
     │   ├── 📂 day26-client-go/        # Day26 - client-go 编程
-    │   └── 📂 day28-observability/    # Day28 - 可观测性
+    │   ├── 📂 day27-observability-basics/ # Day27 - 可观测性入门
+    │   └── 📂 day28-observability/    # Day28 - 可观测性实战
     │
     └── 📂 week5/                      # 第五周：高级架构与底层
-        └── 📂 day29-benchmark/        # Day29 - 基准测试与调优
+        ├── 📂 day29-benchmark/        # Day29 - 基准测试与调优
+        └── 📂 day30-final-project/    # Day30 - 综合项目与总结
 ```
 
 ---
@@ -193,11 +197,11 @@ Gollm/
 | 天数 | 主题 | 战区 | 示例目录 |
 |:----:|------|:----:|---------|
 | Day 08 | 📋 Protobuf 协议设计 | 二 | `examples/week2/day08-protobuf/` |
-| Day 09 | 📋 Protobuf 进阶实践 | 二 | — |
+| Day 09 | 📋 Protobuf 进阶实践 | 二 | `examples/week2/day09-protobuf-advanced/` |
 | Day 10 | 🖥️ gRPC Server 开发 | 二 | `examples/week2/day10-grpc-server/` |
-| Day 11 | 📱 gRPC Client 开发 | 二 | — |
+| Day 11 | 📱 gRPC Client 开发 | 二 | `examples/week2/day11-grpc-client/` |
 | Day 12 | 🔗 拦截器与中间件 | 二 | `examples/week2/day12-interceptors/` |
-| Day 13 | 🔗 高级中间件模式 | 二 | — |
+| Day 13 | 🔗 高级中间件模式 | 二 | `examples/week2/day13-middleware/` |
 | Day 14 | 🔥 pprof 性能剖析 | 二 | `examples/week2/day14-pprof/` |
 
 ---
@@ -209,11 +213,11 @@ Gollm/
 | 天数 | 主题 | 战区 | 示例目录 |
 |:----:|------|:----:|---------|
 | Day 15 | 🤖 LLM 客户端开发 | 四 | `examples/week3/day15-llm-client/` |
-| Day 16 | 🤖 LLM 高级调用 | 四 | — |
+| Day 16 | 🤖 LLM 高级调用 | 四 | `examples/week3/day16-llm-advanced/` |
 | Day 17 | 📡 SSE 流式推送 | 四 | `examples/week3/day17-sse/` |
-| Day 18 | 📡 SSE 进阶模式 | 四 | — |
+| Day 18 | 📡 SSE 进阶模式 | 四 | `examples/week3/day18-sse-advanced/` |
 | Day 19 | 🧩 MCP Server 构建 | 四 | `examples/week3/day19-mcp-server/` |
-| Day 20 | 🧩 MCP 协议进阶 | 四 | — |
+| Day 20 | 🧩 MCP 协议进阶 | 四 | `examples/week3/day20-mcp-advanced/` |
 | Day 21 | 🦾 AI Agent 实战 | 四 | `examples/week3/day21-ai-agent/` |
 
 ---
@@ -224,12 +228,12 @@ Gollm/
 
 | 天数 | 主题 | 战区 | 示例目录 |
 |:----:|------|:----:|---------|
-| Day 22 | ☸️ K8s 基础概念 | 三 | — |
-| Day 23 | ☸️ 容器化实践 | 三 | — |
+| Day 22 | ☸️ K8s 基础概念 | 三 | `examples/week4/day22-k8s-basics/` |
+| Day 23 | ☸️ 容器化实践 | 三 | `examples/week4/day23-containerization/` |
 | Day 24 | 🚀 K8s 部署实战 | 三 | `examples/week4/day24-k8s-deploy/` |
-| Day 25 | 🔧 client-go 入门 | 三 | — |
+| Day 25 | 🔧 client-go 入门 | 三 | `examples/week4/day25-client-go-basics/` |
 | Day 26 | 🔧 client-go 实战 | 三 | `examples/week4/day26-client-go/` |
-| Day 27 | 📊 可观测性入门 | 三 | — |
+| Day 27 | 📊 可观测性入门 | 三 | `examples/week4/day27-observability-basics/` |
 | Day 28 | 📊 可观测性实战 | 三 | `examples/week4/day28-observability/` |
 
 ---
@@ -241,7 +245,7 @@ Gollm/
 | 天数 | 主题 | 战区 | 示例目录 |
 |:----:|------|:----:|---------|
 | Day 29 | ⚡ 基准测试与调优 | 五 | `examples/week5/day29-benchmark/` |
-| Day 30 | 🏆 综合项目与总结 | 五 | — |
+| Day 30 | 🏆 综合项目与总结 | 五 | `examples/week5/day30-final-project/` |
 
 ---
 
